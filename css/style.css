@@ -772,15 +772,3 @@ nav{
 .chat-icon-user>img:hover{
     cursor: pointer;
 }
-<<<<<<< HEAD
-
-/*********************/
-@media screen and (max-width:1024px){
-    
-.sub-categories>a {
-    font-size: 10px;
-    font-weight: 500;
-}
-}
-=======
->>>>>>> 2410be89706299401f0ce08dadaa7706e82505a6
