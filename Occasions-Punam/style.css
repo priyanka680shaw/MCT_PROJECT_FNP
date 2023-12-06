@@ -70,7 +70,7 @@ a{
 .icon-text{
     padding: 5px 0;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .gift-finder{
@@ -194,7 +194,7 @@ a{
     width: 100%;
     font-size: 24px;
     align-items: center;
-    font-weight: 600;
+    font-weight: 500;
     padding: 20px;
     text-align: left;
 }
@@ -367,4 +367,9 @@ img{
 
 .a-name{
     text-align: left;
+}
+
+.aa{
+    text-decoration: none;
+    color: #222;
 }
