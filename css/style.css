@@ -557,7 +557,6 @@ main{
 
 .inner-desc>p{
     font-size: 14px;
-    font-weight: ;
 }
 
 .inner-desc>p>a{
@@ -711,4 +710,12 @@ main{
     border-radius: 50%;
     width: 25px;
     height: 25px;
+}
+/* chat  */
+.chat-icon-user{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
 }
