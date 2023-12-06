@@ -121,6 +121,10 @@ nav{
     width: 100%;
 }
 
+.logo>img:hover{
+    cursor: pointer;
+}
+
 .input_icon_wrapper{
     display: flex;
     background-color: rgb(255,255,255);
@@ -168,6 +172,10 @@ nav{
     font-size: 10px;
 } 
 
+.location:hover{
+ cursor: pointer;
+}
+
 .icon_text{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -192,6 +200,9 @@ nav{
     font-weight: 700;
 }
 
+.location:hover{
+    cursor: pointer;
+   }
 /*main nav 2npart*/
 
 .end{
@@ -211,6 +222,9 @@ nav{
 .endbox>p{
     font-size: 13px;
     font-weight: 400;
+}
+.endbox:hover{
+    cursor: pointer;
 }
 
  /*header categories */
@@ -287,6 +301,10 @@ main{
 .img-section1>a>figure>img{
     width: 100%;
     border-radius: 30%;
+}
+
+.img-section1>a>figure>img:hover{
+    cursor: pointer;
 }
 
 .img-section1>a>p{
@@ -417,6 +435,13 @@ main{
 
 .main-img-placed>img{
     width: 100%;
+    /* transition: all ease-in-out 0.25s; */
+}
+/* *************************************************************************/
+.main-img-placed>img:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    
 }
 .sub-heading{
     padding: 15px;
@@ -511,9 +536,12 @@ main{
     height: 300px;
     width: 300px;
     margin: 30px 0px 20px 0px;
-    /* box-shadow: 0px 10px 3px 5px grey; */
+    box-shadow: 0px 1px 3px 5px rgb(173, 160, 160); 
 }
-
+.main-img-placed-sec11:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
 .main-img-placed-sec11>img{
     width: 100%;
     border-radius: 50%;
@@ -532,8 +560,8 @@ main{
     background-color: #555555;
     height: 100px;
     width: 100px;
-    margin: 30px 0px 20px 0px;
-    /* box-shadow: 0px 10px 3px 5px grey; */
+     margin: 30px 0px 20px 0px; 
+   box-shadow: 0px 5px 3px grey;
 }
 
 .sub-heading-sec17>p{
@@ -544,6 +572,11 @@ main{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+.main-img-placed-sec17>img:hover{
+    cursor: pointer;
+    transform: scalex(1.05);
 }
 /* section 18 */
 
@@ -581,6 +614,10 @@ main{
     height: 70px;
     display: flex;
     justify-content: center;
+}
+
+.image-icon>img:hover{
+    cursor: pointer;
 }
 
 .cs{
@@ -718,4 +755,8 @@ main{
     position: fixed;
     bottom: 50px;
     right: 10px;
+}
+
+.chat-icon-user>img:hover{
+    cursor: pointer;
 }
